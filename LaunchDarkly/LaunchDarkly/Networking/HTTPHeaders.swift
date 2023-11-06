@@ -17,7 +17,7 @@ struct HTTPHeaders {
     struct HeaderValue {
         static let apiKey = "api_key"
         static let applicationJson = "application/json"
-        static let eventSchema4 = "4"
+        static let eventSchema = "5"
     }
 
     private let mobileKey: String
@@ -67,7 +67,7 @@ struct HTTPHeaders {
         var headers = baseHeaders
         headers[HeaderKey.contentType] = HeaderValue.applicationJson
         headers[HeaderKey.accept] = HeaderValue.applicationJson
-        headers[HeaderKey.eventSchema] = HeaderValue.eventSchema4
+        headers[HeaderKey.eventSchema] = HeaderValue.eventSchema
         return withAdditionalHeaders(headers)
     }
 

@@ -36,7 +36,7 @@ final class HTTPHeadersSpec: XCTestCase {
                        "\(SystemCapabilities.systemName)/\(ReportingConsts.sdkVersion)")
         XCTAssertEqual(headers[HTTPHeaders.HeaderKey.contentType], HTTPHeaders.HeaderValue.applicationJson)
         XCTAssertEqual(headers[HTTPHeaders.HeaderKey.accept], HTTPHeaders.HeaderValue.applicationJson)
-        XCTAssertEqual(headers[HTTPHeaders.HeaderKey.eventSchema], HTTPHeaders.HeaderValue.eventSchema4)
+        XCTAssertEqual(headers[HTTPHeaders.HeaderKey.eventSchema], HTTPHeaders.HeaderValue.eventSchema)
     }
 
     func testDiagnosticRequestDefaultHeaders() {
