@@ -1142,7 +1142,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which mint >/dev/null; then\n  /usr/bin/xcrun --sdk macosx mint run realm/SwiftLint\nelse\n  echo \"warning: mint not installed, available from https://github.com/yonaskolb/Mint\"\nfi\n";
+			shellScript = "# Removed";
 		};
 		830C2AC2207416A5001D645D /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1156,7 +1156,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which mint >/dev/null; then\n  /usr/bin/xcrun --sdk macosx mint run realm/SwiftLint\nelse\n  echo \"warning: mint not installed, available from https://github.com/yonaskolb/Mint\"\nfi\n";
+			shellScript = "# Removed";
 		};
 		833FD9F821C01333001F80EB /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1174,7 +1174,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which mint >/dev/null; then\n  /usr/bin/xcrun --sdk macosx mint run realm/SwiftLint\nelse\n  echo \"warning: mint not installed, available from https://github.com/yonaskolb/Mint\"\nfi\n";
+			shellScript = "# Removed";
 		};
 		83411A561FABCA2200E5CF39 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1203,7 +1203,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which mint >/dev/null; then\n  /usr/bin/xcrun --sdk macosx mint run realm/SwiftLint\nelse\n  echo \"warning: mint not installed, available from https://github.com/yonaskolb/Mint\"\nfi\n";
+			shellScript = "# Removed";
 		};
 /* End PBXShellScriptBuildPhase section */
 
